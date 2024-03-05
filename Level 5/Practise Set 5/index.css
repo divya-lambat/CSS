@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    padding:5px;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 120px;
+    padding: 5px;
+
+}
+header{
+    background-color:yellowgreen;
+    height:30px;
+}
+#second{
+    height:50px;
+    width:50px;
+    background-color: green;
+    border-radius: 50%;
+}
+#box2{
+    z-index: 2;
+    position:absolute;
+    left:20px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    margin:5px;
+    display: inline-block;
+}
+#container{
+    border:3px solid ;
+    margin:2px;
+}
+#box4{
+    position:fixed;
+    right:10px;
+}
+footer{
+    position:fixed;
+    bottom: 0px;
+    background-color: peachpuff;
+}
+        

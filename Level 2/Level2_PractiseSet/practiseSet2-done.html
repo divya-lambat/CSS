@@ -1,0 +1,48 @@
+<!-- Create a div bar with text and,background color with opacity.
+2.Change the color of the maun content
+3.Add background image to one div.
+4.use background shorthand property -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise Set 2</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        #bar{
+            background-color: hotpink;
+            color:rgba(77, 18, 18,0.8);
+        }
+        main{
+             height:500px;
+            background-color: silver;
+        }
+        #product{
+            background-color: lawngreen;
+            background-image: url(myntraTop.jpg);
+            width: 200px;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background: lawngreen url('myntraTop.jpg')
+            no-repeat center;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <div id="bar">This is my div bar</div>
+</header>
+<main>
+     <div id="product">Product 1</div>
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
